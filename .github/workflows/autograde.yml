@@ -1,18 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-AUTOGRADE - Laboratorio #6 - Desarrollo Web (HTML5 + CSS3)
-Docente: SarmientoEdu
 
-Califica la rúbrica (100 pts), aplica controles de integridad (antiplagio / anti-IA)
-y sube el resultado a Supabase mediante la función RPC `submit_grade`.
-
-Uso local:   python autograde/autograde.py --dry-run     (no sube nada)
-Uso en CI:   lo ejecuta .github/workflows/autograde.yml en cada push
-Docente:     python autograde/autograde.py --hash        (hash a registrar en lab_config)
-
-Solo usa la biblioteca estándar de Python (sin pip install).
-"""
 import colorsys
 import hashlib
 import json
