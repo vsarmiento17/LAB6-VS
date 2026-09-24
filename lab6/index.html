@@ -1,1 +1,50 @@
-<!-- TODO: construye aquí tu página (Lab #6) -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Página de práctica sobre Club de robótica del laboratorio seis.">
+<meta name="author" content="María José Pérez Castillo">
+<meta name="codigo-sesion" content="LAB6-K7Q2">
+<title>Club de robótica - Lab 6</title>
+<link rel="stylesheet" href="css/estilos.css">
+<style>.aviso { color: #333; }</style>
+<script src="js/app.js" defer></script>
+</head>
+<body>
+<noscript>Activa JavaScript para ver el año.</noscript>
+<header><h1>Club de robótica</h1>
+<nav><a href="#uno">Uno</a> <a href="#dos">Dos</a> <a href="#tres">Tres</a> <a href="#form">Formulario</a></nav></header>
+<main id="ficha-4567" class="k-e175bf">
+<section id="uno"><h2>Intro</h2><p>Texto con <strong>fuerte</strong>, <em>énfasis</em>, <mark>marca</mark>, <code>x=1</code>, <small>pequeño</small>, <abbr title="HyperText">HTML</abbr> y <time datetime="2026-09-23">hoy</time>.</p>
+<ul><li>a</li><li>b</li><li>c</li></ul>
+<dl><dt>T</dt><dd>D</dd></dl>
+<figure><img src="img/foto.png" alt="Foto de prueba" loading="lazy" width="100"><figcaption>Pie</figcaption></figure>
+<details><summary>Más</summary><p style="margin:0">Detalle</p></details></section>
+<section id="dos"><h2>Tabla</h2>
+<table><caption>Datos</caption><thead><tr><th scope="col">A</th><th scope="col">B</th><th scope="col">C</th></tr></thead>
+<tbody>
+<tr><td>Item 1</td><td>3</td><td>B/. 1.50</td></tr>
+<tr><td>Item 2</td><td>6</td><td>B/. 2.50</td></tr>
+<tr><td>Item 3</td><td>9</td><td>B/. 3.50</td></tr>
+<tr><td>Item 4</td><td>12</td><td>B/. 4.50</td></tr>
+</tbody><tfoot><tr><td colspan="3">Total</td></tr></tfoot></table></section>
+<section id="tres"><h2>Media</h2><article><h3>Vid</h3><video controls><source src="v.mp4" type="video/mp4"></video></article>
+<article><h3>Frame</h3><iframe src="otra.html" title="Otra página"></iframe></article></section>
+<aside><h2>Aparte</h2></aside>
+<section id="form"><h2>Form</h2>
+<form action="#" method="post"><fieldset><legend>Datos</legend>
+<label for="n">N</label><input id="n" type="text" required placeholder="x" maxlength="20" autocomplete="name">
+<label for="e">E</label><input id="e" type="email" pattern=".+@.+">
+<label for="t">T</label><input id="t" type="tel" minlength="7">
+<label for="nu">Nu</label><input id="nu" type="number" min="1" max="9" step="1">
+<label for="d">D</label><input id="d" type="date" value="2026-09-23">
+<label for="pw">P</label><input id="pw" type="password">
+<input type="radio" name="r" id="r1"><input type="radio" name="r" id="r2">
+<label for="c">C</label><input id="c" type="checkbox" disabled>
+<input id="rg" type="range" list="lst" readonly><datalist id="lst"><option value="1"></datalist>
+<select id="s"><option>1<option>2<option>3</select>
+<textarea rows="3"></textarea><button type="submit">Enviar</button></fieldset></form></section>
+</main>
+<footer>María Pérez</footer>
+</body></html>
